@@ -9,6 +9,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js'
     },
+    devServer: { // 基于webpack的微服务器 哈哈
+        contentBase: path.join(__dirname, "src")
+    },
     // 不打包jq
     externals: {
         jquery: 'jQuery',

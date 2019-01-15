@@ -69,7 +69,11 @@ const saleChart = {
         })
 
         // 为echarts对象加载数据
-        chart.setOption(newOption)
+        if (newOption && typeof newOption === "object") {
+            chart.setOption(newOption)
+        } else {
+
+        }
     }
 }
 
