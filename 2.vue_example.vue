@@ -166,5 +166,15 @@ export default {
     }
   }
 }
-
 </script>
+<style scpoed lang='scss'>
+ #main {
+   height: 256px;
+   width: 345px;
+   margin: 0 auto;
+   background: rgba(197,33,47,0.73);
+   border: 1px solid #D96A77;
+   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.20);
+   border-radius: 8px;
+ }
+</style>
